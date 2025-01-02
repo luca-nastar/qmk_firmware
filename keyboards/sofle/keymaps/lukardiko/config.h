@@ -1,0 +1,27 @@
+// Copyright 2024 Santosh Kumar (@santosh)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+// #define ENCODER_A_PINS { B12 }
+// #define ENCODER_B_PINS { B13 }
+
+#define ENCODER_DIRECTION_FLIP
+#undef  ENCODER_RESOLUTION
+#define ENCODER_RESOLUTION 4
+
+#define WS2812_DI_PIN D3
+
+#ifdef RGB_MATRIX_ENABLE
+    #define RGB_MATRIX_PIN B3
+
+    #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 150
+    #define RGB_MATRIX_SLEEP
+    #define RGBLIGHT_ANIMATIONS
+
+    #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+#endif
+
+#define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+#define ENABLE_RGB_MATRIX_SPLASH
+
