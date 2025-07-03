@@ -7,3 +7,7 @@ RGB_MATRIX_ENABLE = yes
 RGB_MATRIX_DRIVER = ws2812
 RGB_MATRIX_LED_COUNT = 70  # Cantidad total de LEDs
 RGB_MATRIX_KEYPRESSES = yes  # Efecto por tecla presionada
+
+UNICODE_COMMON = yes
+OS_DETECTION_ENABLE = yes
+TAP_DANCE_ENABLE = yes
